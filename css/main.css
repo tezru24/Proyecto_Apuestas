@@ -1,0 +1,29 @@
+.menu {
+    width: 100%;
+    height: 73px;
+    padding:0;
+    margin:0;
+    background-color: grey;
+    top:0;
+    left:0;
+    position: fixed;
+}
+.loginPrincipal {
+    padding-left: 56.5%;
+    margin-top: -2.5%;
+}
+.imagenes {
+    padding-top: 1%;
+    padding-left: 1%;
+}
+.rellenar {
+    width: 200px;
+}
+.boton {
+    width: 100px;
+}
+#logo {
+    position: absolute;
+    left: 37%;
+    top: 20%;
+}

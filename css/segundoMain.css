@@ -1,0 +1,234 @@
+.menu {
+    width: 100%;
+    height: 10%;
+    background-color: grey;
+    position: fixed;
+}
+.login {
+    padding-left: 85%;
+    margin-top: -2.5%;
+    cursor: pointer;
+}
+.imagenes {
+    padding-top: 1%;
+    padding-left: 1%;
+}
+#usuario {
+    cursor: pointer;
+    margin-left: 50px;  
+}
+img:hover {
+    transform:scale(1.2);
+    -ms-transform:scale(1.2); 
+    -moz-transform:scale(1.2); 
+    -webkit-transform:scale(1.2);
+    -o-transform:scale(1.2);
+}
+#nombre {
+    padding-bottom: 50px;
+}
+#desplegable {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    position: absolute;
+    top: 100px;
+    left: 86%;
+    display: none;
+}
+p {
+    padding-left: 20px;
+    line-height: 40px;
+    cursor: pointer;
+}
+#apuestas {
+    width: 530px;
+    height: 375px;
+    position: relative;
+    top: 93px;
+    border: 1px solid black;   
+}
+#ponerScroll {
+    width: 530px;
+    height: 260px;
+    overflow-y : auto;
+}
+.boton {
+    width: 100px;
+    height: 50px;
+    float: right;
+}
+.boton_personalizado{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+    position: absolute;
+    width: 75px;
+    height: 20px;
+    text-align: center;
+}
+.boton_personalizado:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+}
+#resultados {
+    width: 530px;
+    height: 250px;
+    position: absolute;
+    border: 1px solid black;
+    top: 480px;
+    overflow-y : auto;
+}
+h1 {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 18px;
+    padding: 80px 50px;
+    padding-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+}   
+#apuestas_realizadas {
+    width: 800px;
+    height: 630px;
+    border: 1px solid black;
+    position: absolute;
+    top: 100px;
+    left: 550px;
+}
+#ganancia {
+    width: 960px;
+    height: 170px;
+    border: 1px solid black;
+    position: absolute;
+    top: 560px;
+    left: 620px;
+}
+#total {
+    position: fixed;
+    bottom: 0px;
+    padding: 5px;
+    right:50px;
+    width:150px;
+    height: 20px;
+    border-radius: 5px 5px 0 0;
+    background-color: green;
+    color: white;
+    border: yellow double 1px;
+    box-shadow: 3px 3px 5px black;
+}
+.campo {
+    float:left;
+    text-align: center;
+}
+.apuestas > .proximoPartido {
+    width:100%;
+    height: 100px;
+    background-color:orange;
+}
+.ux2 > .campo {
+    width:10%;
+} 
+.proximoPartido > .equipo {
+    width:30%;
+    padding-left: 10px;
+    height:65px;
+}
+.proximoPartido > .apuesta {
+    width: 15%;
+    height:65px;
+}
+.proximoPartido > .ux2 {
+    width:20%;
+    height:65px;
+}
+.apuesta > .apuesta2 {
+    width:100%;
+}
+.proximoPartido {
+    font-family: 'Sarabun', sans-serif;
+    position: relative;
+    top: 30px;
+}
+.apuesta {
+    position: relative;
+    bottom: 4px;
+    padding-left: 20px;
+}
+.ultimosResultados {
+    position: relative;
+    bottom: 30%;
+    left: 10%;
+    width: 80%;
+    height: 50px;
+}
+.resultadoPartido {
+    text-align: center;
+    font-size: 17px;
+}
+.perfil {
+    width: 40%;
+    height: 80%;
+    border: 1px solid black;
+    position: absolute;
+    top: 13%;
+    left: 27%;
+}
+.tituloPerfil {
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
+    left: 17%;
+    padding-top: 50px;
+}
+.datos {
+    width: 60%;
+    height: 70%;
+}
+b {
+  position: relative;
+  top: 40%;
+  left: 38%;
+}
+i {
+    position: relative;
+    top: 40%;
+    left: 38%;
+    line-height: 80px;
+}
+.uno,.equis,.dos {
+    width: 10px;
+    float: left;
+}
+#anyadirApuesta {
+    position: relative;
+    width: 227px;
+    height: 350px;
+    border: 1px solid black;
+    float: right;
+    bottom: 8px;
+}
+.ordenarPartidos {
+    width: 100%;
+    height: 100%;
+}
+.partidoApuesta {
+    padding-top: 20px;
+    height: 20px;
+    position: relative;
+    left: 5px;
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+hr {
+    width: 215px;
+    border: 1px solid black;
+}
+#apostar {
+    top: 85%;
+    left: 35%;
+}
