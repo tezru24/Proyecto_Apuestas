@@ -11,4 +11,5 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/segundoMain.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
     <script src="JS/main.js"></script>
+    <script src="JS/registrarse.js"></script>
 </head>

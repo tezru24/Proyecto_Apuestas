@@ -1,0 +1,7 @@
+<?php
+    //INSERTAMOS EN LA BASE DE DATOS LAS CARACTERISTICAS DEL USUARIO PARA PODER POSTERIORMENTE LOGUEARSE CON SU USUARIO Y CONTRASEÑA
+    require_once 'model/usersDB.php';
+
+    registrarse();
+    
+?>

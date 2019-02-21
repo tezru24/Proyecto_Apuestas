@@ -3,10 +3,11 @@
     height: 73px;
     padding:0;
     margin:0;
-    background-color: grey;
+    background-color: #58E8BD;
     top:0;
     left:0;
     position: fixed;
+    box-shadow: 3px 3px 5px gray;
 }
 .loginPrincipal {
     padding-left: 56.5%;
@@ -17,13 +18,29 @@
     padding-left: 1%;
 }
 .rellenar {
-    width: 200px;
+    width: 150px;
 }
-.boton {
+.botonEnviar {
+    width: 80px;
+}
+form {
+    width: 580px;
+    height: 50px;
+}
+.botonRegistrarse {
     width: 100px;
+    position: relative;
+    bottom: 58px;
+    left: 580px;
 }
 #logo {
     position: absolute;
     left: 37%;
     top: 20%;
+    transition: all .3s;
+}
+.cuerpoRegistrarse {
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
 }

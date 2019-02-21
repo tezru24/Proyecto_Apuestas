@@ -1,6 +1,6 @@
-<?php include 'header.php'; ?>
+<?php include 'header2.php'; ?>
 <body>
-    <div class="menu">
+<div class="menu">
         <div class="imagenes">
             <img src="img/alaves.png" width="40px" height="40px" >
             <img src="img/atleti.png" width="40px" height="40px" >
@@ -22,19 +22,20 @@
             <img src="img/valladolid.png" width="40px" height="40px" >
             <img src="img/villareal.png" width="40px" height="40px" >
         </div>
-        <div class="loginPrincipal">
-            <form action="consulta.php" method="POST">
-                Usuario:
-                <input class="rellenar" type="text" name="usuario" placeholder="Nombre de usuario">
-                Contraseña:
-                <input class="rellenar" type="password" name="contrasenya" placeholder="Contraseña">
-                <input class="botonEnviar" type="submit" name="enviar" value="Enviar">
-            </form>
-            <button id="registra" class="botonRegistrarse" name="registrarse">Regístrate</button>
-        </div>
-    </div>
-    <div class="cuerpo">
-        <img id="logo" src="img/logoPrincipal.png" width="400px" height="400px" >
-    </div>
+</div>
+
+<div class="perfil">
+    <div class="claseTitulo"><h1>REGISTRO</h1></div>
+        <form  class="formulario" action="registrarse.php" method="POST">
+            <div class="claseCorreo"><span class="etiquetas">Correo electrónico</span></div>
+            <div class="claseInputCorreo"><input class="inputsRegistra" type="text" name="correo" placeholder="Nombre de usuario"><br /><br /></div>
+            <div class="claseNombre"><span class="etiquetas">Nombre</span></div>
+            <div class="claseInputNombre"><input class="inputsRegistra" type="text" name="nombre" placeholder="Nombre"><br /><br /></div>
+            <div class="claseApellidos"><span class="etiquetas">Apellidos</span></div>
+            <div class="claseInputApellidos"><input class="inputsRegistra" type="text" name="apellidos" placeholder="Apellidos"><br /><br /></div>
+            <div class="claseContraseña"><span class="etiquetas">Contraseña</span></div>
+            <div class="claseInputContraseña"><input class="inputsRegistra" type="password" name="contrasenya" placeholder="Contraseña"><br /><br /></div>
+            <div class="claseBoton"><input class="registrarse" type="submit" name="registrar" value="Registrar"></div>
+        </form>
+</div>
 </body>
-</html>
