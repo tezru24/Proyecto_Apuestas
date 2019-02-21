@@ -43,20 +43,23 @@ function realizarApuesta() {
     if (datos[2].checked) apuesta = "2";
     
     cash = datos[3].value;
-    contarDinero = Number(contarDinero) + Number(cash);
-    console.log(contarDinero);
+    
+    
     var infoApuesta = new FormData();
 
     var id = idPartido.split("_")[1];
     var dineroUsuario = document.getElementById("dinero").innerHTML;
+
+    contarDinero = Number(contarDinero) + Number(cash);
+    console.log(contarDinero);
 
     infoApuesta.append("dineros", cash);
     infoApuesta.append("apuesta", apuesta);
     infoApuesta.append("idPartido", id);
     infoApuesta.append("dineroUsuario", dineroUsuario);
     infoApuesta.append("contarDinero", contarDinero);
+    
     cont++;
-    console.log(contarDinero);
     Ajax(infoApuesta);
     
     if(dineros > document.getElementById("dinero").innerHTML){
@@ -131,7 +134,7 @@ function TercerAjax(){
     //Pasamos la info recibida a PHP y, mediante una consulta del partido que es, realizamos una apuesta
     
     //AJAX
-
+    contarDinero = 0;
     peticion_http = new XMLHttpRequest();
 
     peticion_http.onreadystatechange = mostrar;

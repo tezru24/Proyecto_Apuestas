@@ -19,10 +19,12 @@ $id_Usuario = getUser();
 
 if($apuesta != "0" && $cash != "0" && $cash <= $dineroUsuario && $contarDinero <= $dineroUsuario) {
 insertarTablaApuestas($idPartido,$id_Usuario,$cash,$apuesta,$dineroTotal);
-}
-else {
 
 }
+else {
+    
+}
+
 $result5 = consultarApuestasPendientes($id_Usuario);
 
 $result7 = consultarIDapuestasPendientes();

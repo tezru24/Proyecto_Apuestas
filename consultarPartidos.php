@@ -10,7 +10,6 @@ $result4 = consultarPagadasSegunUsuario($id_Usuario);
 <h1 class="titulo2">Apuestas Realizadas</h1>
 <div class="ordenarRealizadas">
     <div class="scrollApuestasPagadas">
-
 <?php 
 $result2 = consultarEquiposApuestasPagadas();
 $color = 0;
